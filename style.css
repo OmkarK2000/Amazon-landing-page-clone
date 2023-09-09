@@ -328,6 +328,7 @@ main {
 .todaysDeals {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .todaysDealsContainer {
   width: 95.5vw;
@@ -351,7 +352,16 @@ main {
 }
 .todaysDealsList{
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
+}
+.todaysDealsList2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 260px;
 }
 .todayDealsItemContainer {
   width: 200px;
