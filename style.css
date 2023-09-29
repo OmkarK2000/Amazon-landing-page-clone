@@ -4,10 +4,13 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+html{
+  font-size: 62.5%;
+}
 /* navbar */
 
 .navbar {
-  height: 60px;
+  height: 6.0rem;
   background-color: #131921;
   display: flex;
   align-items: center;
@@ -15,21 +18,21 @@
   justify-content: space-evenly;
 }
 .navbar img {
-  width: 97px;
+  width: 9.7rem;
 }
 .border {
-  border: 1px solid transparent;
-  border-radius: 2px;
+  border: .1rem solid transparent;
+  border-radius: .2rem;
 }
 .border:hover {
-  border: 1px solid #fff;
+  border: .1rem solid #fff;
 }
 .border2 {
-  border: 1px solid transparent;
-  border-radius: 2px;
+  border: .1rem solid transparent;
+  border-radius: .2rem;
 }
 .border2:hover {
-  border: 1px solid #fff;
+  border: .1rem solid #fff;
 }
 .pointer {
   cursor: pointer;
@@ -38,25 +41,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
-  width: 120px;
-  /* margin-left: -28px; */
+  height: 5.0rem;
+  width: 12.0rem;
+  /* margin-left: -28rem; */
 }
 .loc-add {
   color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 0 9px;
-  height: 50px;
+  padding: 0 .9rem;
+  height: 5.0rem;
   justify-content: center;
 }
 .loc-add p:first-child {
-  margin-left: 17px;
-  font-size: 12px;
+  margin-left: 1.7rem;
+  font-size: 1.2rem;
   color: #ccc;
 }
 .loc-add p:last-child {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 .add {
@@ -64,7 +67,7 @@
 }
 .add p {
   color: #fff;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 .search-bar {
   display: flex;
@@ -72,89 +75,89 @@
 }
 .search-bar i {
   color: #000;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
 }
 .selectBox {
   background-color: #efefef;
-  height: 37px;
-  width: 50px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  height: 3.7rem;
+  width: 5.0rem;
+  border-top-left-radius: .3rem;
+  border-bottom-left-radius: .3rem;
   border: none;
 }
 .search-bar input {
-  height: 39px;
+  height: 3.9rem;
   width: 40vw;
   outline-color: #f3a847;
 }
 .search-bar i {
-  height: 37px;
-  padding: 9px;
+  height: 3.7rem;
+  padding: .9rem;
   background-color: #f3a847;
 }
 .flag img {
-  width: 20px;
-  height: 14px;
+  width: 2.0rem;
+  height: 1.4rem;
 }
 .flag {
   display: flex;
   align-items: end;
   color: #fff;
-  height: 50px;
-  padding: 0 9px 9px;
+  height: 5.0rem;
+  padding: 0 .9rem .9rem;
 }
 .flag p {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 .acc {
   color: #fff;
-  height: 50px;
+  height: 5.0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 9px;
+  padding: 0 .9rem;
 }
 .acc p:first-child {
-  font-size: 12px;
+  font-size: 1.2rem;
   /* color: #ccc; */
 }
 .acc p:last-child {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 .return {
   color: #fff;
-  height: 50px;
+  height: 5.0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 9px;
+  padding: 0 .9rem;
 }
 .return p:first-child {
-  font-size: 12px;
+  font-size: 1.2rem;
   /* color: #ccc; */
 }
 .return p:last-child {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 .cart {
   color: #fff;
   display: flex;
-  height: 50px;
+  height: 5.0rem;
   align-items: center;
-  padding: 0 9px;
+  padding: 0 .9rem;
 }
 .cart p:first-child {
   color: #f3a847;
 }
 .cart p:last-child {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 700;
-  margin-top: 20px;
-  margin-left: 4px;
+  margin-top: 2.0rem;
+  margin-left: .4rem;
 }
 
 /*Navbar option*/
@@ -168,14 +171,14 @@
 }
 .menu-btn {
   display: flex;
-  margin-left: 1rem;
-  padding-inline: 9px;
+  margin-left: .1rem;
+  padding-inline: .9rem;
 }
 .menu-btn {
   display: flex;
 }
 .menu-btn i {
-  font-size: 21px;
+  font-size: 2.1rem;
 }
 .prime {
   display: flex;
@@ -185,15 +188,22 @@
   align-items: center;
 }
 .navbar-opt p {
-  font-size: 14px;
-  padding: 0 5px;
-  height: 38px;
+  font-size: 1.4rem;
+  padding: 0 .5rem;
+  height: 3.8rem;
   display: flex;
   align-items: center;
 }
 .options {
   width: 70%;
   /* display: flex; */
+}
+
+.logo2{
+  width: 30%;
+}
+.logo2 img{
+  width: 100%;
 }
 
 /* Main */
@@ -205,7 +215,7 @@ main {
 
 .bg {
   background-image: url(img/bg.jpg);
-  height: 600px;
+  height: 60.0rem;
   display: flex;
   justify-content: center;
   background-size: cover;
@@ -216,7 +226,7 @@ main {
   align-items: center;
   /* flex-wrap: wrap; */
   width: 97vw;
-  padding-top: 250px;
+  padding-top: 25.0rem;
 }
 
 .main {
@@ -228,27 +238,27 @@ main {
   align-items: center;
   /* flex-wrap: wrap; */
   width: 97vw;
-  padding-top: 20px;
+  padding-top: 2.0rem;
 }
 
 .box {
-  height: 350px;
+  height: 35.0rem;
   width: 23vw;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+  margin: 1.0rem;
 }
 
 .pTop {
   width: 90%;
-  height: 50px;
-  margin: 15px;
+  height: 5.0rem;
+  margin: 1.5rem;
 }
 
 .pTop p {
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 500;
 }
 
@@ -272,16 +282,16 @@ main {
 
 .boxImgs img {
   width: 50%;
-  padding: 5px;
+  padding: .5rem;
 }
 
 .pBottom {
   width: 90%;
-  padding: 10px 0;
+  padding: .10rem 0;
 }
 
 .pBottom p {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #74ced4;
 }
 
@@ -293,62 +303,62 @@ main {
 
 .leftArrow{
   background-color: #ffffff;
-  width: 40px;
-  height: 100px;
+  width: 4.0rem;
+  height: 10.0rem;
   position: absolute;
   left: 0;
   top: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.1);
+  box-shadow: 0rem 0rem 1.0rem -0.3rem rgba(0,0,0,0.1);
 }
 .leftArrow i{
-  font-size: 40px;
+  font-size: 4.0rem;
   color: #949595;
 }
 
 .rightArrow{
   background-color: #ffffff;
-  width: 40px;
-  height: 100px;
+  width: 4.0rem;
+  height: 10.0rem;
   position: absolute;
   right: 0;
   top: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.1);
+  box-shadow: 0rem 0rem 1.0rem -0.3rem rgba(0,0,0,0.1);
 }
 .rightArrow i{
-  font-size: 40px;
+  font-size: 4.0rem;
   color: #949595;
 }
 
 .todaysDeals {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 2.0rem;
 }
 .todaysDealsContainer {
   width: 95.5vw;
-  height: 350px;
+  height: 35.0rem;
   background-color: #fff;
-  padding: 20px;
+  padding: 2.0rem;
 }
 .todaysDealsHeader {
   display: flex;
   align-items: center;
-  height: 38px;
+  height: 3.8rem;
 }
 .todaysDealsHeader :first-child {
-  font-size: 20px;
+  font-size: 2.0rem;
   font-weight: bold;
 }
 .todaysDealsHeader :last-child {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #74ced4;
-  margin-left: 13px;
+  margin-left: 1.3rem;
 }
 .todaysDealsList{
   display: flex;
@@ -361,55 +371,55 @@ main {
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 260px;
+  height: 26.0rem;
 }
 .todayDealsItemContainer {
-  width: 200px;
-  margin-right: 10px;
+  width: 20.0rem;
+  margin-right: 1.0rem;
 }
 .imgContainer {
   background-color: #efefef;
-  height: 200px;
-  width: 200px;
+  height: 20.0rem;
+  width: 20.0rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .imgContainer img {
   height: 100%;
-  padding: 10px;
+  padding: 1.0rem;
 }
 
 .todaysDealsInfo {
-  margin-top: 5px;
+  margin-top: .5rem;
 }
 .todaysDealsButtomInfo {
   display: flex;
 }
 .todaysDealsButtomInfo :first-child {
-  font-size: 12px;
+  font-size: 1.2rem;
   background-color: #cc0c39;
   color: #dddddd;
   font-weight: 600;
-  padding: 5px;
-  border-radius: 2px;
+  padding: .5rem;
+  border-radius: .2rem;
 }
 .todaysDealsButtomInfo :last-child {
-  font-size: 12px;
-  padding: 5px;
+  font-size: 1.2rem;
+  padding: .5rem;
   color: #cc0c39;
   font-weight: 600;
 }
 .todaysDealsInfo :last-child {
-  font-size: 12px;
-  margin-top: 5px;
+  font-size: 1.2rem;
+  margin-top: .5rem;
 }
 
 /* footer */
 
 .backToTop {
-  height: 50px;
-  font-size: 13px;
+  height: 5.0rem;
+  font-size: 1.3rem;
   background-color: #314257;
   display: flex;
   justify-content: center;
@@ -428,18 +438,18 @@ main {
 
 .footerOption {
   background-color: #232f3e;
-  height: 340px;
+  height: 34.0rem;
   display: flex;
   color: #dddddd;
   justify-content: space-evenly;
-  font-size: 14px;
-  padding: 0 50px;
+  font-size: 1.4rem;
+  padding: 0 5.0rem;
 }
 .footerOption div {
-  margin-top: 40px;
+  margin-top: 4.0rem;
 }
 .footerOption div p {
-  margin-top: 12px;
+  margin-top: 1.2rem;
 }
 .footerOption div p:hover {
   text-decoration: underline;
@@ -449,7 +459,7 @@ main {
 .footerOption div :first-child {
   font-weight: bold;
   color: #fff;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 .footerOption div :first-child:hover {
@@ -458,26 +468,26 @@ main {
 }
 
 .country-container {
-  border-top: 0.1px solid #dddddd;
+  border-top: 0.01rem solid #dddddd;
   display: flex;
   background-color: #232f3e;
   color: #dddddd;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 160px;
+  height: 16.0rem;
 }
 
 .btn {
-  margin-top: 20px;
+  margin-top: 2.0rem;
 }
 
 button {
   background-color: transparent;
   color: #dddddd;
-  padding: 10px 37px;
-  border-radius: 2px;
-  border: 0.2px solid #dddddd;
+  padding: 1.0rem 3.7rem;
+  border-radius: .2rem;
+  border: 0.02rem solid #dddddd;
   cursor: pointer;
 }
 
@@ -486,12 +496,12 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   width: 70vw;
-  margin: 20px;
+  margin: 2.0rem;
 }
 
 .countrys p {
-  margin: 0 5px;
-  font-size: 13px;
+  margin: 0 .5rem;
+  font-size: 1.3rem;
   cursor: pointer;
 }
 .countrys p:hover {
@@ -506,9 +516,9 @@ button {
 .other-services-content {
   display: flex;
   justify-content: center;
-  font-size: 12px;
-  gap: 100px;
-  padding: 20px 0;
+  font-size: 1.2rem;
+  gap: 10.0rem;
+  padding: 2.0rem 0;
 }
 
 .content-box div:hover {
@@ -524,16 +534,29 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: #dddddd;
-  padding: 30px 0;
+  padding: 3.0rem 0;
 }
 
 .footerEnd div {
   display: flex;
-  gap: 15px;
+  gap: 1.5rem;
 }
 
 .footerEnd :last-child {
-  padding-top: 3px;
+  padding-top: .3rem;
+}
+
+/* responsive code */
+@media(max-width:998px){
+  html{
+    font-size: 55%
+  }
+}
+
+@media(max-width:768px){
+  html{
+    font-size: 45%
+  }
 }
